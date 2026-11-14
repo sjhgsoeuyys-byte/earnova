@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Earnova — Rewards Demo</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <header><div class="brand">Earnova<span>.</span></div><nav><a href="#how">How it works</a><a href="#account">Account</a></nav></header>
+  <main>
+    <section class="hero">
+      <p class="tag">REWARDS PLATFORM DEMO</p>
+      <h1>Earn rewards.<br><span>Your way.</span></h1>
+      <p class="intro">A starter demo for a task-and-rewards website. Create a demo account and explore the dashboard.</p>
+      <a class="button" href="#account">Get started</a>
+    </section>
+    <section class="cards" id="how">
+      <article><b>01</b><h2>Complete tasks</h2><p>Future offer partners can list surveys, apps and other tasks here.</p></article>
+      <article><b>02</b><h2>Collect points</h2><p>This demo shows sample points only. No real money is earned.</p></article>
+      <article><b>03</b><h2>Request payout</h2><p>A sample withdrawal request form is included for testing.</p></article>
+    </section>
+    <section class="account" id="account">
+      <div><p class="tag">DEMO ACCOUNT</p><h2>Your dashboard</h2><p>Enter any display name to preview the demo.</p>
+        <form id="loginForm"><input id="name" placeholder="Your name" required><button class="button">Open dashboard</button></form>
+      </div>
+      <div class="panel" id="dashboard"><h3>Welcome!</h3><p id="welcome">Your demo dashboard will appear here.</p><div class="points"><strong>250</strong><span>Sample points</span></div><form id="withdrawForm"><input id="amount" type="number" min="1" placeholder="Points to request" required><button class="button secondary">Request demo payout</button></form><p id="message" class="notice">Demo only — no payout will be sent.</p></div>
+    </section>
+    <footer>© 2026 Earnova · Demo website · No real earning or payment processing</footer>
+  </main>
+  <script src="static/app.js"></script>
+</body></html>
